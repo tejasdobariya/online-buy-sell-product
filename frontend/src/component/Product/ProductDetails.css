@@ -1,0 +1,87 @@
+.ProductDetails {
+    display: flex;
+    height: 32vmax;
+    /* border: 2px solid black; */
+    background-color: rgb(233, 245, 249);
+
+}
+
+.ProductDetails>.container1 {
+    width: 50%;
+}
+
+.ProductDetails>.container2 {
+    width: 50%;
+
+}
+
+.CarouselImage {
+    height: 22vmax;
+    width: 22vmax;
+    margin-left: 14vmax;
+    margin-top: 5vmax;
+}
+
+.container2>.detailsBlock-1 {
+    margin-top: 5vmax;
+}
+
+.container2>.detailsBlock-1>h2 {
+    margin-top: 5vmax;
+    font: 400 1.6vmax cursive;
+    color: gray;
+}
+
+.container2>.detailsBlock-1>p {
+    font: 400 0.8vmax cursive;
+    margin-bottom: 1vmax;
+}
+
+
+.container2>.detailsBlock-4 {
+    margin-top: 0.2vmax;
+    font: 400 1.1vmax "roboto";
+}
+
+.container2>.detailsBlock-4>p {
+    margin-top: 0.2vmax;
+    font: 400 1vmax "roboto";
+}
+
+.container2>.detailsBlock-3>h2 {
+    margin-top: 0.4vmax;
+    font: 600 1.3vmax cursive;
+}
+
+.details {
+    margin-top: 0.8vmax;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8vmax;
+    margin-bottom: 2vmax;
+}
+
+.details>h4 {
+    font: 400 1.5vmax cursive;
+    color: gray;
+    margin-bottom: 0.5vmax;
+}
+
+.buy-now {
+
+    border: none;
+    background-color: tomato;
+    font: 400 1.1vmax "Roboto";
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    width: 50%;
+    margin: 4vmax;
+    text-align: center;
+}
+
+.deleteicon :hover {
+    color: tomato;
+}
